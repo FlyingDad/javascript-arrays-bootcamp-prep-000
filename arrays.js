@@ -13,3 +13,14 @@ function destructivelyAddElementToBeginningOfArray(array, val){
   array.unshift(val);
   return array;
 }
+
+function addElementToEndOfArray(array, val){
+  var newArr = array.slice(0);
+	newArr.push(val);
+	return newArr;
+} 
+
+function destructivelyAddElementToEndOfArray(array, val){
+  array.push(val);
+  return array;
+}
